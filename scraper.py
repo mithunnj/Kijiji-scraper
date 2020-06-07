@@ -205,7 +205,7 @@ def main():
     
 
 while True:
-    print(CGREEN + 'Starting Kijiji scraper for the following search query: {} \n'.format(BASE_URL) + CEND)
+    print(CGREEN + '{} \n\nStarting Kijiji scraper for the following search query: {} \n'.format(datetime.now().strftime("%A, %d. %B %Y %I:%M%p"),BASE_URL) + CEND)
 
     main()
     sleep_time = 60*5
